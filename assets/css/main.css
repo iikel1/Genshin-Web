@@ -46,9 +46,38 @@ ol, ul {
     
     padding-left: 0;
 }
+.footer {
+    font-size: 14px;
+    background: #262731;
+    border-top: 1px solid #1f1f25;
+    margin-top: auto;
+    padding: 30px 0;
+    order: 10;
+}
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .row {
     margin-left: 0;
     margin-right: 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.footer .footer-logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .logh{
 	position: absolute;
@@ -121,6 +150,12 @@ ol, ul {
 .App {
     min-height: 100vh;
     height: 100%;
+}
+.no1{
+	color: black;
+}
+.no4{
+	color: rgb(4, 5, 5);
 }
 .flex-column {
     flex-direction: column!important;
